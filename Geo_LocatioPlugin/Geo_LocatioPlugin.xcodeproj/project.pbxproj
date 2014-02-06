@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0BD9CA18A2D7E200675260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0BD9C918A2D7E200675260 /* Foundation.framework */; };
+		DB0BD9CC18A2D7E200675260 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0BD9CB18A2D7E200675260 /* CoreGraphics.framework */; };
+		DB0BD9CE18A2D7E200675260 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0BD9CD18A2D7E200675260 /* UIKit.framework */; };
+		DB0BD9D418A2D7E200675260 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB0BD9D218A2D7E200675260 /* InfoPlist.strings */; };
+		DB0BD9D618A2D7E200675260 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0BD9D518A2D7E200675260 /* main.m */; };
+		DB0BD9DA18A2D7E200675260 /* LCTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0BD9D918A2D7E200675260 /* LCTAppDelegate.m */; };
+		DB0BD9DD18A2D7E200675260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0BD9DB18A2D7E200675260 /* Main.storyboard */; };
+		DB0BD9E018A2D7E200675260 /* LCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0BD9DF18A2D7E200675260 /* LCTViewController.m */; };
+		DB0BD9E218A2D7E200675260 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0BD9E118A2D7E200675260 /* Images.xcassets */; };
+		DB0BD9E918A2D7E300675260 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0BD9E818A2D7E300675260 /* XCTest.framework */; };
+		DB0BD9EA18A2D7E300675260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0BD9C918A2D7E200675260 /* Foundation.framework */; };
+		DB0BD9EB18A2D7E300675260 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0BD9CD18A2D7E200675260 /* UIKit.framework */; };
+		DB0BD9F318A2D7E300675260 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB0BD9F118A2D7E300675260 /* InfoPlist.strings */; };
+		DB0BD9F518A2D7E300675260 /* Geo_LocatioPluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0BD9F418A2D7E300675260 /* Geo_LocatioPluginTests.m */; };
+		DB0BDA0018A2DA2000675260 /* LCT_GeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0BD9FF18A2DA2000675260 /* LCT_GeoLocation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB0BD9EC18A2D7E300675260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0BD9BE18A2D7E200675260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0BD9C518A2D7E200675260;
+			remoteInfo = Geo_LocatioPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB0BD9C618A2D7E200675260 /* Geo_LocatioPlugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geo_LocatioPlugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0BD9C918A2D7E200675260 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB0BD9CB18A2D7E200675260 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB0BD9CD18A2D7E200675260 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB0BD9D118A2D7E200675260 /* Geo_LocatioPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Geo_LocatioPlugin-Info.plist"; sourceTree = "<group>"; };
+		DB0BD9D318A2D7E200675260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB0BD9D518A2D7E200675260 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB0BD9D718A2D7E200675260 /* Geo_LocatioPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geo_LocatioPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		DB0BD9D818A2D7E200675260 /* LCTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTAppDelegate.h; sourceTree = "<group>"; };
+		DB0BD9D918A2D7E200675260 /* LCTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTAppDelegate.m; sourceTree = "<group>"; };
+		DB0BD9DC18A2D7E200675260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB0BD9DE18A2D7E200675260 /* LCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTViewController.h; sourceTree = "<group>"; };
+		DB0BD9DF18A2D7E200675260 /* LCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTViewController.m; sourceTree = "<group>"; };
+		DB0BD9E118A2D7E200675260 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB0BD9E718A2D7E300675260 /* Geo_LocatioPluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Geo_LocatioPluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0BD9E818A2D7E300675260 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB0BD9F018A2D7E300675260 /* Geo_LocatioPluginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Geo_LocatioPluginTests-Info.plist"; sourceTree = "<group>"; };
+		DB0BD9F218A2D7E300675260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB0BD9F418A2D7E300675260 /* Geo_LocatioPluginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Geo_LocatioPluginTests.m; sourceTree = "<group>"; };
+		DB0BD9FE18A2DA2000675260 /* LCT_GeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCT_GeoLocation.h; sourceTree = "<group>"; };
+		DB0BD9FF18A2DA2000675260 /* LCT_GeoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCT_GeoLocation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB0BD9C318A2D7E200675260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0BD9CC18A2D7E200675260 /* CoreGraphics.framework in Frameworks */,
+				DB0BD9CE18A2D7E200675260 /* UIKit.framework in Frameworks */,
+				DB0BD9CA18A2D7E200675260 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0BD9E418A2D7E300675260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0BD9E918A2D7E300675260 /* XCTest.framework in Frameworks */,
+				DB0BD9EB18A2D7E300675260 /* UIKit.framework in Frameworks */,
+				DB0BD9EA18A2D7E300675260 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0BD9BD18A2D7E200675260 = {
+			isa = PBXGroup;
+			children = (
+				DB0BD9CF18A2D7E200675260 /* Geo_LocatioPlugin */,
+				DB0BD9EE18A2D7E300675260 /* Geo_LocatioPluginTests */,
+				DB0BD9C818A2D7E200675260 /* Frameworks */,
+				DB0BD9C718A2D7E200675260 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB0BD9C718A2D7E200675260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB0BD9C618A2D7E200675260 /* Geo_LocatioPlugin.app */,
+				DB0BD9E718A2D7E300675260 /* Geo_LocatioPluginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB0BD9C818A2D7E200675260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB0BD9C918A2D7E200675260 /* Foundation.framework */,
+				DB0BD9CB18A2D7E200675260 /* CoreGraphics.framework */,
+				DB0BD9CD18A2D7E200675260 /* UIKit.framework */,
+				DB0BD9E818A2D7E300675260 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB0BD9CF18A2D7E200675260 /* Geo_LocatioPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				DB0BD9D818A2D7E200675260 /* LCTAppDelegate.h */,
+				DB0BD9D918A2D7E200675260 /* LCTAppDelegate.m */,
+				DB0BD9DB18A2D7E200675260 /* Main.storyboard */,
+				DB0BD9DE18A2D7E200675260 /* LCTViewController.h */,
+				DB0BD9DF18A2D7E200675260 /* LCTViewController.m */,
+				DB0BD9E118A2D7E200675260 /* Images.xcassets */,
+				DB0BD9D018A2D7E200675260 /* Supporting Files */,
+				DB0BD9FE18A2DA2000675260 /* LCT_GeoLocation.h */,
+				DB0BD9FF18A2DA2000675260 /* LCT_GeoLocation.m */,
+			);
+			path = Geo_LocatioPlugin;
+			sourceTree = "<group>";
+		};
+		DB0BD9D018A2D7E200675260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB0BD9D118A2D7E200675260 /* Geo_LocatioPlugin-Info.plist */,
+				DB0BD9D218A2D7E200675260 /* InfoPlist.strings */,
+				DB0BD9D518A2D7E200675260 /* main.m */,
+				DB0BD9D718A2D7E200675260 /* Geo_LocatioPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB0BD9EE18A2D7E300675260 /* Geo_LocatioPluginTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0BD9F418A2D7E300675260 /* Geo_LocatioPluginTests.m */,
+				DB0BD9EF18A2D7E300675260 /* Supporting Files */,
+			);
+			path = Geo_LocatioPluginTests;
+			sourceTree = "<group>";
+		};
+		DB0BD9EF18A2D7E300675260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB0BD9F018A2D7E300675260 /* Geo_LocatioPluginTests-Info.plist */,
+				DB0BD9F118A2D7E300675260 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB0BD9C518A2D7E200675260 /* Geo_LocatioPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0BD9F818A2D7E300675260 /* Build configuration list for PBXNativeTarget "Geo_LocatioPlugin" */;
+			buildPhases = (
+				DB0BD9C218A2D7E200675260 /* Sources */,
+				DB0BD9C318A2D7E200675260 /* Frameworks */,
+				DB0BD9C418A2D7E200675260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geo_LocatioPlugin;
+			productName = Geo_LocatioPlugin;
+			productReference = DB0BD9C618A2D7E200675260 /* Geo_LocatioPlugin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB0BD9E618A2D7E300675260 /* Geo_LocatioPluginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0BD9FB18A2D7E300675260 /* Build configuration list for PBXNativeTarget "Geo_LocatioPluginTests" */;
+			buildPhases = (
+				DB0BD9E318A2D7E300675260 /* Sources */,
+				DB0BD9E418A2D7E300675260 /* Frameworks */,
+				DB0BD9E518A2D7E300675260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0BD9ED18A2D7E300675260 /* PBXTargetDependency */,
+			);
+			name = Geo_LocatioPluginTests;
+			productName = Geo_LocatioPluginTests;
+			productReference = DB0BD9E718A2D7E300675260 /* Geo_LocatioPluginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0BD9BE18A2D7E200675260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ElectrikSheep;
+				TargetAttributes = {
+					DB0BD9E618A2D7E300675260 = {
+						TestTargetID = DB0BD9C518A2D7E200675260;
+					};
+				};
+			};
+			buildConfigurationList = DB0BD9C118A2D7E200675260 /* Build configuration list for PBXProject "Geo_LocatioPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB0BD9BD18A2D7E200675260;
+			productRefGroup = DB0BD9C718A2D7E200675260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB0BD9C518A2D7E200675260 /* Geo_LocatioPlugin */,
+				DB0BD9E618A2D7E300675260 /* Geo_LocatioPluginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB0BD9C418A2D7E200675260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0BD9E218A2D7E200675260 /* Images.xcassets in Resources */,
+				DB0BD9D418A2D7E200675260 /* InfoPlist.strings in Resources */,
+				DB0BD9DD18A2D7E200675260 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0BD9E518A2D7E300675260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0BD9F318A2D7E300675260 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB0BD9C218A2D7E200675260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0BD9DA18A2D7E200675260 /* LCTAppDelegate.m in Sources */,
+				DB0BD9D618A2D7E200675260 /* main.m in Sources */,
+				DB0BDA0018A2DA2000675260 /* LCT_GeoLocation.m in Sources */,
+				DB0BD9E018A2D7E200675260 /* LCTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0BD9E318A2D7E300675260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0BD9F518A2D7E300675260 /* Geo_LocatioPluginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB0BD9ED18A2D7E300675260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0BD9C518A2D7E200675260 /* Geo_LocatioPlugin */;
+			targetProxy = DB0BD9EC18A2D7E300675260 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB0BD9D218A2D7E200675260 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0BD9D318A2D7E200675260 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB0BD9DB18A2D7E200675260 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0BD9DC18A2D7E200675260 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB0BD9F118A2D7E300675260 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0BD9F218A2D7E300675260 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB0BD9F618A2D7E300675260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB0BD9F718A2D7E300675260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0BD9F918A2D7E300675260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geo_LocatioPlugin/Geo_LocatioPlugin-Prefix.pch";
+				INFOPLIST_FILE = "Geo_LocatioPlugin/Geo_LocatioPlugin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB0BD9FA18A2D7E300675260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geo_LocatioPlugin/Geo_LocatioPlugin-Prefix.pch";
+				INFOPLIST_FILE = "Geo_LocatioPlugin/Geo_LocatioPlugin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB0BD9FC18A2D7E300675260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Geo_LocatioPlugin.app/Geo_LocatioPlugin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geo_LocatioPlugin/Geo_LocatioPlugin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Geo_LocatioPluginTests/Geo_LocatioPluginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB0BD9FD18A2D7E300675260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Geo_LocatioPlugin.app/Geo_LocatioPlugin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geo_LocatioPlugin/Geo_LocatioPlugin-Prefix.pch";
+				INFOPLIST_FILE = "Geo_LocatioPluginTests/Geo_LocatioPluginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0BD9C118A2D7E200675260 /* Build configuration list for PBXProject "Geo_LocatioPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0BD9F618A2D7E300675260 /* Debug */,
+				DB0BD9F718A2D7E300675260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0BD9F818A2D7E300675260 /* Build configuration list for PBXNativeTarget "Geo_LocatioPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0BD9F918A2D7E300675260 /* Debug */,
+				DB0BD9FA18A2D7E300675260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB0BD9FB18A2D7E300675260 /* Build configuration list for PBXNativeTarget "Geo_LocatioPluginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0BD9FC18A2D7E300675260 /* Debug */,
+				DB0BD9FD18A2D7E300675260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0BD9BE18A2D7E200675260 /* Project object */;
+}
