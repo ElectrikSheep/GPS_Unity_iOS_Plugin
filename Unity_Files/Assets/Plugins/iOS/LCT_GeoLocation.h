@@ -24,6 +24,7 @@ void _setLogCallback(callbackFunc);
 
 -(void) start_GeoLocation ;
 -(void) pause_GeoLocation ;
+-(bool) check_ForGPSAvailibilty;
 
 @property (strong, nonatomic) CLLocationManager *lm ;
 

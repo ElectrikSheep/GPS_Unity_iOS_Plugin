@@ -21,7 +21,7 @@
 		DB0BD9EB18A2D7E300675260 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0BD9CD18A2D7E200675260 /* UIKit.framework */; };
 		DB0BD9F318A2D7E300675260 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB0BD9F118A2D7E300675260 /* InfoPlist.strings */; };
 		DB0BD9F518A2D7E300675260 /* Geo_LocatioPluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0BD9F418A2D7E300675260 /* Geo_LocatioPluginTests.m */; };
-		DB0BDA0018A2DA2000675260 /* LCT_GeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0BD9FF18A2DA2000675260 /* LCT_GeoLocation.m */; };
+		DBC99C4918A812E80086C3AD /* LCT_GeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC99C4818A812E80086C3AD /* LCT_GeoLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		DB0BD9F018A2D7E300675260 /* Geo_LocatioPluginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Geo_LocatioPluginTests-Info.plist"; sourceTree = "<group>"; };
 		DB0BD9F218A2D7E300675260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB0BD9F418A2D7E300675260 /* Geo_LocatioPluginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Geo_LocatioPluginTests.m; sourceTree = "<group>"; };
-		DB0BD9FE18A2DA2000675260 /* LCT_GeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCT_GeoLocation.h; sourceTree = "<group>"; };
-		DB0BD9FF18A2DA2000675260 /* LCT_GeoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCT_GeoLocation.m; sourceTree = "<group>"; };
+		DBC99C4718A812E80086C3AD /* LCT_GeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LCT_GeoLocation.h; path = ../../Unity_Files/Assets/Plugins/iOS/LCT_GeoLocation.h; sourceTree = "<group>"; };
+		DBC99C4818A812E80086C3AD /* LCT_GeoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LCT_GeoLocation.m; path = ../../Unity_Files/Assets/Plugins/iOS/LCT_GeoLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +115,7 @@
 		DB0BD9CF18A2D7E200675260 /* Geo_LocatioPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				DBC99C4A18A812FB0086C3AD /* Plugin */,
 				DB0BD9D818A2D7E200675260 /* LCTAppDelegate.h */,
 				DB0BD9D918A2D7E200675260 /* LCTAppDelegate.m */,
 				DB0BD9DB18A2D7E200675260 /* Main.storyboard */,
@@ -122,8 +123,6 @@
 				DB0BD9DF18A2D7E200675260 /* LCTViewController.m */,
 				DB0BD9E118A2D7E200675260 /* Images.xcassets */,
 				DB0BD9D018A2D7E200675260 /* Supporting Files */,
-				DB0BD9FE18A2DA2000675260 /* LCT_GeoLocation.h */,
-				DB0BD9FF18A2DA2000675260 /* LCT_GeoLocation.m */,
 			);
 			path = Geo_LocatioPlugin;
 			sourceTree = "<group>";
@@ -155,6 +154,15 @@
 				DB0BD9F118A2D7E300675260 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBC99C4A18A812FB0086C3AD /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				DBC99C4718A812E80086C3AD /* LCT_GeoLocation.h */,
+				DBC99C4818A812E80086C3AD /* LCT_GeoLocation.m */,
+			);
+			name = Plugin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +265,7 @@
 			files = (
 				DB0BD9DA18A2D7E200675260 /* LCTAppDelegate.m in Sources */,
 				DB0BD9D618A2D7E200675260 /* main.m in Sources */,
-				DB0BDA0018A2DA2000675260 /* LCT_GeoLocation.m in Sources */,
+				DBC99C4918A812E80086C3AD /* LCT_GeoLocation.m in Sources */,
 				DB0BD9E018A2D7E200675260 /* LCTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +475,7 @@
 				DB0BD9FA18A2D7E300675260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB0BD9FB18A2D7E300675260 /* Build configuration list for PBXNativeTarget "Geo_LocatioPluginTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +484,7 @@
 				DB0BD9FD18A2D7E300675260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

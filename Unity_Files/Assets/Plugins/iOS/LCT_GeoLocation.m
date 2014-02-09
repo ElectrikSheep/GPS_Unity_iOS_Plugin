@@ -20,7 +20,9 @@ void _pauseGeoLocation() {
 void _startGeoLocation() {
     [INSTANCE start_GeoLocation];
 }
-
+bool _checkForUserPermission() {
+    return [INSTANCE check_ForGPSAvailibilty] ;
+}
 
 
 
@@ -45,7 +47,6 @@ static LCT_GeoLocation *deviceInstance = nil;
     
     // Try to see if just calling start_Geolocation will create the instance and then launch the update
     //[self.lm startUpdatingLocation ] ;
-    
     return self ;
 }
 
@@ -55,6 +56,15 @@ static LCT_GeoLocation *deviceInstance = nil;
 
 -(void) pause_GeoLocation {
     [self.lm stopUpdatingLocation ] ;
+}
+
+-(bool) check_ForGPSAvailibilty {
+    if([CLLocationManager locationServicesEnabled] &&
+       [CLLocationManager authorizationStatus] != kCLAuthorizationStatusDenied){
+        return true ;
+    }else{
+        return false ;
+    }
 }
 
 - (void)locationManager:(CLLocationManager *)manager

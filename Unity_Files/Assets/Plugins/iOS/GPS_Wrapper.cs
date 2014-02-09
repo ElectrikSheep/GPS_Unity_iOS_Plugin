@@ -15,8 +15,6 @@ public class GPS_Wrapper : MonoBehaviour {
 		public double deviceLatitude = 0f ;		// Between 0 and 90 
 		public double deviceLongitude = 0f ;
 
-
-
 		// I want this class as a Singleton
 		private static GPS_Wrapper _instance;
 
@@ -62,7 +60,9 @@ public class GPS_Wrapper : MonoBehaviour {
 		[DllImport("__Internal")]
 		private static extern void _pauseGeoLocation() ;
 		public void PauseGeoLocation() {
+				#if !UNITY_EDITOR
 				_pauseGeoLocation () ;
+				#endif
 		}
 
 		[DllImport("__Internal")]
@@ -72,6 +72,15 @@ public class GPS_Wrapper : MonoBehaviour {
 				_startGeoLocation() ;
 				#endif 
 		}
+
+		[DllImport("__Internal")]
+		private static extern bool _checkForUserPermission();
+		public void Check_ForUserPermission (){
+				#if !UNITY_EDITOR
+				_startGeoLocation() ;
+				#endif 
+		}
+
 
 
 
