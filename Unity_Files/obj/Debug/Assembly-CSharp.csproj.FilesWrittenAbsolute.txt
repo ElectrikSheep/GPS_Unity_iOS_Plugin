@@ -1,0 +1,11 @@
+/Users/lionelmille/Documents/Projects/GPS_Unity_iOS_Plugin/Unity_Files/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/lionelmille/Documents/Projects/GPS_Unity_iOS_Plugin/Unity_Files/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/lionelmille/Documents/Projects/GPS_Unity_iOS_Plugin/Unity_Files/obj/Debug/Assembly-CSharp.dll
+/Users/lionelmille/Documents/Projects/GPS_Unity_iOS_Plugin/Unity_Files/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/lionelmille/Documents/Projects/GPS_Unity_iOS_Plugin/Unity_Files/Temp/bin/Debug/UnityEngine.dll
+/Users/lionelmille/Documents/Projects/GPS_Unity_iOS_Plugin/Unity_Files/Temp/bin/Debug/UnityEditor.dll
+/Users/lionelmille/Documents/Projects/GPS_Unity_iOS_Plugin/Unity_Files/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/lionelmille/Documents/Projects/GPS_Unity_iOS_Plugin/Unity_Files/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/lionelmille/Documents/Projects/GPS_Unity_iOS_Plugin/Unity_Files/Temp/bin/Debug/Mono.Cecil.dll
+/Users/lionelmille/Documents/Projects/GPS_Unity_iOS_Plugin/Unity_Files/Temp/bin/Debug/nunit.framework.dll
+/Users/lionelmille/Documents/Projects/GPS_Unity_iOS_Plugin/Unity_Files/Temp/bin/Debug/ICSharpCode.NRefactory.dll

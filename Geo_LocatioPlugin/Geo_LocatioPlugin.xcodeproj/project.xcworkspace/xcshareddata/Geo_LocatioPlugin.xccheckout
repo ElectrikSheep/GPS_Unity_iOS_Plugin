@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E1CB8699-070E-4E81-AD64-76EA89855DF3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Geo_LocatioPlugin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>46BF3B49-20AC-4B60-AA3F-2AFCF6D1883C</key>
+		<string>ssh://github.com/ElectrikSheep/GPS_Unity_iOS_Plugin.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Geo_LocatioPlugin/Geo_LocatioPlugin.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>46BF3B49-20AC-4B60-AA3F-2AFCF6D1883C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ElectrikSheep/GPS_Unity_iOS_Plugin.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>46BF3B49-20AC-4B60-AA3F-2AFCF6D1883C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>46BF3B49-20AC-4B60-AA3F-2AFCF6D1883C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GPS_Unity_iOS_Plugin</string>
+		</dict>
+	</array>
+</dict>
+</plist>
