@@ -45,8 +45,6 @@ static LCT_GeoLocation *deviceInstance = nil;
     self.lm.delegate        = self;  //SET YOUR DELEGATE HERE
     self.lm.desiredAccuracy = kCLLocationAccuracyBest; //SET THIS TO SPECIFY THE ACCURACY
     
-    // Try to see if just calling start_Geolocation will create the instance and then launch the update
-    //[self.lm startUpdatingLocation ] ;
     return self ;
 }
 

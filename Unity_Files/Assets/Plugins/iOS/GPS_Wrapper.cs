@@ -27,16 +27,10 @@ public class GPS_Wrapper : MonoBehaviour {
 		private void Start() {
 				if( _instance == null )
 						_instance = new GPS_Wrapper();
-
-
 				#if !UNITY_EDITOR
 				SetLogCallback( Get_Data );
 				#endif
 		}
-
-
-
-
 
 		// CREATING CALLBACKS
 		// We need to give it a type 
@@ -75,10 +69,11 @@ public class GPS_Wrapper : MonoBehaviour {
 
 		[DllImport("__Internal")]
 		private static extern bool _checkForUserPermission();
-		public void Check_ForUserPermission (){
+		public bool Check_ForUserPermission (){
 				#if !UNITY_EDITOR
-				_startGeoLocation() ;
+				return _checkForUserPermission() ;
 				#endif 
+				return false ;
 		}
 
 

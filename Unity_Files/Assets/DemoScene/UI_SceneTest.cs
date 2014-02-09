@@ -8,6 +8,9 @@ public class UI_SceneTest : MonoBehaviour {
 		[SerializeField] private GUIText _labelLatitude ;
 		[SerializeField] private GUIText _labelLongitude ;	
 
+		[SerializeField] private GUIText _errorMessage ;	
+
+
 		private bool geoLocation_Started = false ;
 
 		private Rect btnRect ;
@@ -42,8 +45,19 @@ public class UI_SceneTest : MonoBehaviour {
 
 
 		public void Start_GeoLocation() {
-				geoLocation_Started = true ;
+				// I am pretty sure I should launch a coroutine here but meh fuck it
 				GPS_Wrapper.Instance.StartGeoLocation() ;
+
+				if( !GPS_Wrapper.Instance.Check_ForUserPermission() ) {
+						geoLocation_Started = false  ;
+						_errorMessage.gameObject.SetActive( true ) ;
+
+						_labelLatitude.text = "Latitude :\nNaN" ;
+						_labelLongitude.text = "Longitude :\nNaN" ;
+				} else {
+						_errorMessage.gameObject.SetActive( false ) ;
+						geoLocation_Started = true ;
+				}
 		}
 
 		public void Pause_GeoLocation() {
